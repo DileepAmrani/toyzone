@@ -1,0 +1,122 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  #footer{
+    background-color: #282c34 !important;
+  }
+  .footer1{
+    float: left;
+  
+  }
+  .title{
+    font-weight: bold;
+    /* font-size: 3% */
+  
+  }
+  .input{
+  width: 70%;
+  padding: 8px;
+  border: none;
+  
+  
+  }
+  .button{
+  padding: 8px;
+  background-color: black;
+  color: white;
+  border: none;
+  }
+  #main{
+    background-color: #51ba72;
+  }
+  .last{
+   font-weight: bold;
+   text-align: center;
+  }
+  #p1{
+      text-align: center;
+  }
+  .image{
+  width: 100%;
+  }
+  #footer{
+    background-color: black;
+    color: white;
+}
+#youtube{
+    font-size: 20px;
+    
+}
+#insta{
+    font-size: 20px;
+}
+#fb{
+    font-size: 20px;
+}
+#youtube:hover{
+    color: black;
+}
+#insta:hover{
+    color: black;
+}
+#fb:hover{
+    color: black;
+}
+@media only screen and (max-width: 500px) {
+#first{
+    border-bottom: 1px solid black;
+}
+#second{
+    border-bottom: 1px solid black;
+}
+#third{
+    border-bottom: 1px solid black;
+}
+#fourth{
+    border-bottom: 1px solid black;
+}
+#text{
+margin-left: 90px
+}
+#icons{
+margin-top: 30px;
+margin-right: 200px;
+}
+}
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  

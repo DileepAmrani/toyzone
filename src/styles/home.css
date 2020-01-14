@@ -1,0 +1,22 @@
+.Navbar{
+    justify-content: flex-start;
+}
+.homepage{
+    background-color: red;
+    color: white;
+}
+.popularCategories{
+    text-align: center;
+}
+.popularCategories .heading{
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.flashDeals{
+    text-align: center;
+}
+.flashDeals .heading{
+    font-size: 2.5vw;
+    font-weight: bold;
+}

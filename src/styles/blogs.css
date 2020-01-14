@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
+
+.blog_title {
+  font-family: "Titillium Web", sans-serif !important;
+}
+.category_list{
+    display: block;
+    font-weight: bold;
+    color: rgb(68, 158, 200);
+}
+.category_list:hover{
+    color: rgb(95, 107, 95);
+}

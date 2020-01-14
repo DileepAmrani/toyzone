@@ -1,0 +1,19 @@
+input{
+    /* border: 1px solid gray;
+    background-color: #e6e6e6;
+    padding: 2%;
+    width: 60%;
+    margin-top: "30px"; */
+    outline: none !important;
+}
+.input-group{
+    margin: 10px;
+}
+
+.contactSec{
+    /* margin-left: 40%; */
+    line-height: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 10px;
+}
