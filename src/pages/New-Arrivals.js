@@ -7,6 +7,9 @@ import {
   Footer,
   Social
 } from "../components/index.js";
+import ProductCard from "./../components/ProductCard/ProductCard"
+import { newArrivals } from "../Config/Router/Object";
+
 export default class NewArrivals extends React.Component {
   render() {
     return (
@@ -19,15 +22,18 @@ export default class NewArrivals extends React.Component {
             <SubHeader />
             <Navbar history={this.props.history} />
           </div>
-          <br />
-        <br />
-        <br />
-          <br />
-      New Arrivals
-           <br />
-          <br />
-          <br />
-          <br />
+ 
+    Home /  New Arrivals
+{/* Cards are from here */}
+<div className="container" style={{display: "flex"}}>
+       {
+       newArrivals.map((v, i) => (
+         
+         <ProductCard imageURL={v.url} productName={v.name} price={v.price} onSale={v.onSale} />
+        ))
+      }
+</div>
+
           <div>
             {/* Footer Section Starts From Here */}
             <Social />

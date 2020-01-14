@@ -52,7 +52,6 @@ export default function ProductCard(props) {
       </Button>
         </CardContent>
       </CardActionArea>
-
     </Card>
   );
 }

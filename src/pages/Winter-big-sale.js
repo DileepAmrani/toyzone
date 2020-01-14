@@ -7,6 +7,8 @@ import {
   Footer,
   Social
 } from "../components/index.js";
+import ProductCard from "./../components/ProductCard/ProductCard"
+import { flashDeals } from "../Config/Router/Object";
 export default class WinterBigSale extends React.Component {
   render() {
     return (
@@ -18,17 +20,18 @@ export default class WinterBigSale extends React.Component {
             <SubHeader />
             <Navbar history={this.props.history} />
           </div>
-          <br />
-          <br />
-          <br />
-          <br />
-          Winter Big Sale
-          <br />
-          <br />
-          <br />
-          <br />
-          <div>
+          Home / Winter Big Sale
+           {/* Cards are from here */}
+          <div className="container" style={{ display: "flex" }}>
+            {
+              flashDeals.map((v, i) => (
+
+                <ProductCard imageURL={v.url} productName={v.name} price={v.price} onSale={v.onSale} />
+              ))
+            }
+          </div>
             {/* Footer Section Starts From Here */}
+            <div>
             <Social />
             <Footer />
           </div>
