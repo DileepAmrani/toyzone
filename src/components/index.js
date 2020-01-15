@@ -11,6 +11,8 @@ import BestSellers from "./BestSellers/BestSellers.js";
 import Brands from "./Brands/Brands.js";
 import Footer from "./Footer/Footer.js";
 import Social from "./Social/Social.js";
+import Dropdown from './dropdown/browser'
+import Stortby from './dropdown/stortby'
 export {
   Header,
   Navbar,
@@ -25,4 +27,6 @@ export {
   Brands,
   Footer,
   Social,
+  Dropdown,
+  Stortby
 };

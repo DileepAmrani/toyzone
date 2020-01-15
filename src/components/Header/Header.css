@@ -4,3 +4,7 @@
     font-family: 'Questrial', sans-serif;
     font-size: 16px;
 }
+
+.popup-content{
+    width: 500px !important;
+}
